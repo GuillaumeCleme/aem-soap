@@ -96,7 +96,7 @@ To start, add the `core` bundle as a dependency to your project:
 <dependency>
     <groupId>com.aftia.aem</groupId>
     <artifactId>aem-soap.core</artifactId>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 

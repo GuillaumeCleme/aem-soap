@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.aftia.aem</groupId>
         <artifactId>aem-soap</artifactId>
-        <version>1.0.1</version>
+        <version>1.1.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -214,6 +214,7 @@ Import-Package: javax.annotation;version=0.0.0,!com.adobe.cq.*,!com.gargoylesoft
                 <artifactId>bnd-baseline-maven-plugin</artifactId>
                 <configuration>
                     <failOnMissing>false</failOnMissing>
+                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>

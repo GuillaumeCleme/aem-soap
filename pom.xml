@@ -6,7 +6,7 @@
   <groupId>com.aftia.aem</groupId>
   <artifactId>aem-soap</artifactId>
   <packaging>pom</packaging>
-  <version>1.0.1</version>
+  <version>1.1.0</version>
   <name>AEM Soap Services</name>
   <description>AEM Soap Services</description>
   <modules>

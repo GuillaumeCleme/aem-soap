@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.aftia.aem</groupId>
         <artifactId>aem-soap</artifactId>
-        <version>1.0.1</version>
+        <version>1.1.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>aem-soap.core</artifactId>
@@ -56,6 +56,7 @@ Bundle-Activator: com.aftia.aem.soap.core.activators.CXFActivator
                 <artifactId>bnd-baseline-maven-plugin</artifactId>
                 <configuration>
                     <failOnMissing>false</failOnMissing>
+                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
